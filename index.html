@@ -1,0 +1,50 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Webpage</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <p style="font-size: 2vw;">
+            this is the index page
+        </p>
+        <a href="newfile.html" target="_blank">Go to second page</a> <br> <br>
+
+        <img src="img/myimg.jpg" alt="sunflower design" style="height: 1000px;  width:1000px ;">
+        <br><br>
+        <p style="color: white; background-color: brown ; "> this is a paragraph using block tag </p>
+        <span style="color: whitesmoke; background-color: green ;">this is another paragraph using inline tag</span> 
+        <p>this is brown</p>
+        <p id="secondptag">this is blue</p>
+        <p id="thirdptag">this is red</p>
+
+        <br>
+
+        <p class="simpleClass">This is simple class</p><br>
+
+        <p class="simpleClass">This is second simple class</p> <br><br><br>
+
+        <iframe src="frame.html" frameborder="2" height="1000px" width="600px"></iframe>
+        <br><br><br>
+        <iframe src="https://www.youtube.com" frameborder="2" height="1000px" width="600px"></iframe>
+        <br><br><br>
+
+        <p id="functiontag">this is from html</p>
+
+        <button type="button" onclick="myfunction()">click here</button>
+        
+        <script>
+            function myfunction(){
+                document.getElementById("functiontag").innerHTML="this is from javascript"
+            }
+        </script>
+
+
+    </body>
+    </html>
+</html>
